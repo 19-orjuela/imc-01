@@ -1,0 +1,18 @@
+h1{
+    font-size: 45px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: crimson;
+    background-color: gray;
+}
+ul{
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: lightcoral;
+}
+li{
+    margin: 10px;
+    font-size: 20px;
+}
