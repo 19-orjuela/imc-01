@@ -1,18 +1,26 @@
 h1{
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
     color: crimson;
     background-color: gray;
 }
 ul{
     text-align: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 25px;
     background-color: lightcoral;
 }
 li{
     margin: 10px;
     font-size: 20px;
+}
+div{
+    padding: 20px;
+    margin: 25px;
+    background-color: aqua;
+}
+footer{
+    margin: 25px;
 }
