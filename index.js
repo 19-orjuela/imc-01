@@ -1,3 +1,5 @@
+
+
 function par(){
     let parar = prompt("hasta donde ver numeros ?")
     console.log("*****************ParImpar********************");

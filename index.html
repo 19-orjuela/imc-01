@@ -9,6 +9,24 @@
 <body>
     <div>
         <h1>
+            Cuenta bancaria
+        </h1>
+        <label for="mas"> Ingresar saldo </label>
+        <input type="text" name="" id="saldo">
+        <button onclick="cuenta.mas()">Enviar</button>
+        <p id="_dinero"></p>
+
+        <label for="menos"> Retirar saldo </label>
+        <input type="text" name="" id="saldo">
+        <button onclick="cuenta.menos()">Retirar</button>
+        <p id="_dinero"></p>  
+
+        <label for="mas"> Conocer saldo </label>
+        <button onclick="cuenta.informar()">Mi saldo</button>
+        <script src="cuenta.js"></script>
+    </div>
+    <div>
+        <h1>
             IMC : Indice de Masa Corporal
         </h1>
         <label for="num"> Conoce tu IMC </label>

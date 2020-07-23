@@ -1,25 +1,25 @@
 h1{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     color: crimson;
-    background-color: gray;
+    background-color: burlywood;
 }
 ul{
     text-align: center;
     justify-content: space-between;
-    padding: 25px;
-    background-color: lightcoral;
+    padding: 15px;
+    background-color: cornsilk;
 }
 li{
     margin: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 div{
-    padding: 20px;
-    margin: 25px;
-    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+    background-color: cornflowerblue;
 }
 footer{
     margin: 25px;
