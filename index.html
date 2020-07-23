@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>IMC_0.1</title>
-    <script src="imc.js"></script>
-    <script src="par.js"></script>
+    <title>Talleres-JS</title>
 </head>
 <body>
     <div>
         <h1>
             IMC : Indice de Masa Corporal
         </h1>
+        <label for="num"> Conoce tu IMC </label>
+        <button onclick="imc()">IMC</button>
+        <p id="multi"></p>
         <ul>
             <li>
                 Si el IMC es menor a 18.5 quiere decir que el peso es inferior al normal
@@ -30,13 +31,21 @@
     </div>
     <div>
         <h1>
+            Pares e Impares
+        </h1>
+        <label for="num">Hata donde quieres ver pares e impares </label>
+        <button onclick="par()">Ver numeros</button>
+        <p id="multi"></p>
+    </div>
+    <div>
+        <h1>
             Tabla de multiplicar
         </h1>
         <label for="num">Introduce un número: </label>
         <input type="text" name="" id="num">
-        <button onclick="multi()">TABLA rta</button>
+        <button onclick="multiplicar()">Ver tabla</button>
         <p id="multi"></p>
-        <script src="multi.js"></script>
+        <script src="index.js"></script>
     </div>
     <footer>
         por Juan Pablo Orjuela
