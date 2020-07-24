@@ -1,7 +1,6 @@
 
 
 
-
 var cuenta ={
     nombre: "alex" ,
     saldo: 0,
